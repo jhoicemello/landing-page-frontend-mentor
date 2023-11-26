@@ -19,8 +19,8 @@ html {
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 1rem;
-  
 }
+
 
 .container {
   padding: 0px 30px;
@@ -86,6 +86,16 @@ a {
   font-weight: 300;
 }
 
+.testemonials.btn-cta {
+  margin: 0 auto;
+}
+
+.center {
+  display: grid;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .btn-cta:hover {
   background-color: hsl(12, 82%, 69%);
 }
@@ -104,6 +114,10 @@ a {
 
 .title2 {
   font-size: 2rem;
+}
+
+.testemonials.title2 {
+  margin: 0 auto;
 }
 
 .title3 {
@@ -336,6 +350,15 @@ svg:hover path {
     display: grid;
     justify-content: center;
   }
+
+  .grid.container.advantages {
+    padding-right: 0px;
+  }
+
+  .grid.container.advantages.content  {
+    padding-right: 30px;
+  }
+
   .img-intro {
     order: -1;
   }
